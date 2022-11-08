@@ -1,0 +1,69 @@
+---
+title: "Assignment"
+author: "Authors"
+date: "`r Sys.Date()`"
+output: pdf_document2
+ulrcolor: CornflowerBlue
+header-includes:
+  - \usepackage{float}
+  - \usepackage{booktabs}
+  - \usepackage{fancyvrb}
+  - \usepackage{lscape}
+  - \usepackage{float}
+  - \newcommand{\blandscape}{\begin{landscape}}
+  - \newcommand{\elandscape}{\end{landscape}}
+  - \newcommand{\mat}[1]{\mathbf{#1}}
+  - \newcommand{\vect}[1]{\boldsymbol{#1}}
+bibliography: references.bib
+pdf-engine: xelatex
+cap-location: top
+toc: false
+toc-title: Contents
+number-sections: true
+mainfont: Helvetica
+setspace:
+  linestretch: 1.25
+fig-align: center
+table-align: center
+fig-pos: H
+table-pos: H
+execute:
+  echo: false
+  warning: false
+  eval: true
+code-line-numbers: false
+colorlinks: true
+code-block-bg: darkgray
+df-print: default
+highlight-style: arrow-dark
+biblio-title: References
+---
+
+```{r, echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE, 
+                      message = FALSE, 
+                      error = FALSE, 
+                      warning = FALSE, 
+                      cache = TRUE,
+                      tidy = TRUE,
+                      fig.width = 4.5,
+                      fig.height = 3,
+                      fig.align = "center",
+                      tidy.opts = list(width.cutoff = 50),
+                      fig.pos="H")
+```
+
+
+# Introduction
+
+# Data
+
+# Method
+
+# Results
+
+# Conclusion and Discussion
+
+# Code
+
+# References
