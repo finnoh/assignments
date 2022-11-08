@@ -1,4 +1,4 @@
-# Assignment
+# Assignment 👨🏼‍💻
 
 > Exectute the script `compile.r` to run the analysis script and compile the report.
 
