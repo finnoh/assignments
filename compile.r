@@ -6,7 +6,7 @@ p_load(rmarkdown, bookdown)
 source("main.r")
 
 # render the report
-render(input = "report.rmd", output_format = "pdf_document")
+render(input = "report.rmd")
 
 # open the report
 system('open "report.pdf"')
